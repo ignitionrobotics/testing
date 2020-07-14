@@ -10,5 +10,6 @@ jobs:
         uses: ignition-tooling/pr-collection-labeler@chapulina/periodic
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: '$GITHUB_REPOSITORY'
           gazebodistro-branch: 'chapulina/testing'
 
