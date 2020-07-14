@@ -1,0 +1,14 @@
+name: PR Collection Labeler
+
+on: pull_request
+
+jobs:
+  pr_collection_labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add collection labels
+        if: github.event.action == 'opened'
+        uses: ignition-tooling/pr-collection-labeler@chapulina/periodic
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          gazebodistro-branch: 'chapulina/testing'
