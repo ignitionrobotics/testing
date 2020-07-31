@@ -1,6 +1,6 @@
 name: Ubuntu Bionic CI
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   bionic-ci:
@@ -11,9 +11,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Bionic CI
         id: ci
-        uses: ignition-tooling/ubuntu-bionic-ci-action@chapulina/image
+        uses: chapulina/ubuntu-bionic-ci-action@master
         with:
-          docker_image: 'ubuntu:bionic'
-          apt-dependencies: ''
           codecov-token: ${{ secrets.CODECOV_TOKEN }}
-          cmake-args: '-DBUILD_TESTING=1'
