@@ -1,12 +1,13 @@
-name: "Pull Request Labeler"
+name: Pull request labeler
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
-  triage:
+  labeler:
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
-    - uses: chapulina/labeler@schedule
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: paulfantom/periodic-labeler@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          LABEL_MAPPINGS_FILE: .github/labeler.yml
