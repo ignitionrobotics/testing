@@ -4,22 +4,26 @@ about: Report a bug
 labels: bug
 ---
 
-## Environment
+<!-- If you're not sure whether your problem is a bug, please ask a question at
+http://answers.gazebosim.org instead.-->
 
-...
+## Environment
+* OS Version: <!-- e.g, Ubuntu 20.04 -->
+* Source or binary build?
+  <!-- If binary, which version? -->
+  <!-- If source, which branch and what is the latest commit? -->
 
 ## Description
-
-Explain what you expected to happen and what happened instead
-
-...
+* Expected behavior: <!-- Tell us what you expected to happen -->
+* Actual behavior: <!-- What happened instead -->
 
 ## Steps to reproduce
+<!-- Provide steps so we can try to reproduce this issue -->
 
-...
+1.
+2.
+3.
 
 ## Output
-
-Screenshots, console logs, backtraces...
-
-
+<!-- Provide screenshots, console logs, backtraces, and/or anything that could
+be useful to us resolving this issue -->

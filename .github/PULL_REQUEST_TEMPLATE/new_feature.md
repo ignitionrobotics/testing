@@ -1,21 +1,19 @@
----
-name: New feature
-about: Add new feature
-labels: enhancement
----
-
-Closes #<NUMBER>.
-
-- [ ] Signed all commits for DCO
-- [ ] Added example world
-- [ ] Added tests
+Closes #<NUMBER>
 
 ## Summary
+Explain changes made, the expected behavior, and provide any other additional context (e.g., screenshots, gifs) if appropriate. 
 
-explain what's done...
+## Test it
+Explain how reviewers can test this new feature manually.
 
-add screenshots if appropriate...
+## Checklist
+- [ ] Signed all commits for DCO
+- [ ] Added tests
+- [ ] Added example world and/or tutorial
+- [ ] Update documentation (as needed)
+- [ ] Update migration guide (as needed)
+- [ ] `codecheck` passed (See [contributing](https://ignitionrobotics.org/docs/all/contributing#contributing-code))
+- [ ] All tests passed (See [test coverage](https://ignitionrobotics.org/docs/all/contributing#test-coverage))
+- [ ] While waiting for a review on your PR, please help review [another open pull request](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Aignitionrobotics+archived%3Afalse+) to support the maintainers
 
-## Try it
-
-explain how reviewers can test it manually
+Note: Remember to use **Squash-Merge**
