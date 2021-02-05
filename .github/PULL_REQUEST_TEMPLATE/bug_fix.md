@@ -7,8 +7,8 @@ before and after the PR.-->
 ## Checklist
 - [ ] Signed all commits for DCO
 - [ ] Added tests
-- [ ] Update documentation (as needed)
-- [ ] Update migration guide (as needed)
+- [ ] Updated documentation (as needed)
+- [ ] Updated migration guide (as needed)
 - [ ] `codecheck` passed (See
   [contributing](https://ignitionrobotics.org/docs/all/contributing#contributing-code))
 - [ ] All tests passed (See
@@ -17,4 +17,4 @@ before and after the PR.-->
 [another open pull request](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Aignitionrobotics+archived%3Afalse+)
 to support the maintainers
 
-Note: Remember to use **Squash-Merge**
+**Note to maintainers**: Remember to use **Squash-Merge**
